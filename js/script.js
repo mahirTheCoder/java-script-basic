@@ -3,7 +3,7 @@
 // alert('Hey wellcome java script' )
 // alert ()
 // confirm ('Do You Like This')
-prompt('Enter Your Number')
+// prompt('Enter Your Number')
 
 
 // console.log (' hello ')
@@ -160,28 +160,111 @@ console.log (full);
 
 
 
+// let boyos = prompt('tomar boyos koto')
 
 
+// if ( boyos >= 20){
+//   let income = prompt('tmr salary koto')
+//   if(income >= 50000){
+//     console.log('okh fine we are agree')
+//   }
+//   else{
+//     console.log('age income kor pore biya korte ashis')
+//   }
+//    }
+// else{
+//   console.log('age boro how')
+// }
 
 
+let boyos = prompt('tomar boyos koto')
+
+if(boyos >= 20){
+  let income = prompt('tomar salary koto')
+  if(income >= 50000){
+    console.log('okh biyate amra raji')
+  }
+  else{
+    console.log('dhuru ai taka diya to amr mey er pani gorom o hbe na')
+  }
+}
+else{
+  let kaj = prompt('tumi ki koro')
+  if(kaj == 'business'){
+    console.log('buh amra sby raji baba')
+  }
+  else[
+    console.log('dhuru beta tui to fokir')
+  ]
+}
+
+// ----------------------------name function
+function myFunction(){
+  console.log('this is name function');
+}
+myFunction()
 
 
+// -----------------expression functions
+
+let myExpressionfunction = function(){
+  console.log('this is expression funtion');
+}
+myExpressionfunction()
+
+// --------------------arrow functions
+
+// let myarrow = ()=>{
+//   console.log('this is arrow funtion')
+// }
+// myarrow();
 
 
+// -------------------iife function
+
+// (
+//   ()=>{
+//     console.log('this is IIFE function')
+//   }
+
+// )();
 
 
+// ------------------------------dom dhora
+
+let alu = document.querySelectorAll('.result');
+console.log(alu)
 
 
+let dim = document.getElementById('result')
+console.log(dim)
+
+let peyaj = document.getElementsByClassName('.result')
+console.log(peyaj)
+
+let rosun = document.querySelector('.result')
+console.log(rosun)
+
+// ------------------------------button
+
+// let button = document.querySelector('button')
+// let h2 = document.querySelector('h2');
 
 
+// button.addEventListener('click' , ()=>{
+//   console.log(input.value);
+// })
+
+let button = document.querySelector('button')
+let h2 = document.querySelector('h2');
 
 
+button.addEventListener('click' , ()=>{
+  console.log('output  ashtese');
 
 
-
-
-
-
+  h2.style='color:pink; background:red;'
+})
 
 
 
